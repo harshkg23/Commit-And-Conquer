@@ -11,7 +11,7 @@ export function BlogGrid() {
   useEffect(() => {
     async function fetchBlogs() {
       try {
-        const response = await fetch("http://localhost:8000/api/fetchblogs");
+        const response = await fetch("https://jsonplaceholder.typicode.com/posts");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
@@ -41,7 +41,12 @@ export function BlogGrid() {
         ) : blogs.length > 0 ? (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {blogs.map((blog) => (
-              <BlogCard key={blog.id} blog={blog} />
+              <BlogCard
+                key={blog.id}
+                id={blog.id}
+                title={blog.title}
+                body={blog.body}
+              />
             ))}
           </div>
         ) : (

@@ -13,7 +13,7 @@ const LandingPage = () => {
             <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center">
               <CodeIcon className="w-4 h-4 text-white" />
             </div>
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">CommitConquer</div>
+            <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">Internship Portal</div>
           </div>
           <div className="hidden md:flex space-x-1">
             <Button variant="ghost" className="rounded-full text-gray-600 hover:text-blue-600">Features</Button>
@@ -36,11 +36,11 @@ const LandingPage = () => {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 text-left space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
-              <span className="block">Simplify Your</span>
-              <span className="bg-gradient-to-r from-blue-600 to-green-500 text-transparent bg-clip-text">Project Workflow</span>
+              <span className="block">Find Your</span>
+              <span className="bg-gradient-to-r from-blue-600 to-green-500 text-transparent bg-clip-text">Dream Internship</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-xl">
-              CommitConquer helps teams collaborate, track progress, and deliver projects on time - all in one powerful platform.
+              Our Internship Portal connects you with top companies offering exciting internship opportunities.
             </p>
             <div className="flex space-x-4 pt-4">
               <Button size="lg" className="rounded-full bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-200">
@@ -56,7 +56,7 @@ const LandingPage = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-green-400 rounded-2xl blur-xl opacity-20"></div>
               <img 
                 src="/api/placeholder/600/400" 
-                alt="Dashboard Preview" 
+                alt="" 
                 className="rounded-2xl shadow-2xl relative w-full border border-gray-100" 
               />
             </div>
@@ -69,19 +69,19 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-2">
             <p className="text-4xl font-bold text-blue-600">98%</p>
-            <p className="text-gray-600">Customer Satisfaction</p>
+            <p className="text-gray-600">Placement Rate</p>
           </div>
           <div className="space-y-2">
             <p className="text-4xl font-bold text-green-600">10k+</p>
-            <p className="text-gray-600">Active Users</p>
+            <p className="text-gray-600">Internships Listed</p>
           </div>
           <div className="space-y-2">
             <p className="text-4xl font-bold text-purple-600">24/7</p>
             <p className="text-gray-600">Support Available</p>
           </div>
           <div className="space-y-2">
-            <p className="text-4xl font-bold text-orange-600">50+</p>
-            <p className="text-gray-600">Integrations</p>
+            <p className="text-4xl font-bold text-orange-600">500+</p>
+            <p className="text-gray-600">Companies</p>
           </div>
         </div>
       </div>
@@ -89,8 +89,8 @@ const LandingPage = () => {
       {/* Feature Highlights */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Powerful Features for Every Team</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">Everything you need to manage projects efficiently and collaborate effectively</p>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Portal?</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">We provide the best tools and resources to help you land your ideal internship.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="group">
@@ -99,7 +99,7 @@ const LandingPage = () => {
                 <RocketIcon className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Fast & Efficient</h3>
-              <p className="text-gray-600">Streamlined workflows and intuitive interfaces ensure your team stays productive and focused on what matters.</p>
+              <p className="text-gray-600">Quickly find and apply to internships that match your skills and interests.</p>
             </div>
           </div>
           <div className="group mt-8 md:mt-0">
@@ -107,8 +107,8 @@ const LandingPage = () => {
               <div className="w-14 h-14 bg-green-600 rounded-xl flex items-center justify-center mb-6 transform group-hover:rotate-6 transition-transform">
                 <ShieldCheckIcon className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Enterprise Security</h3>
-              <p className="text-gray-600">Rest easy knowing your data is protected with industry-leading security protocols and real-time monitoring.</p>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Verified Listings</h3>
+              <p className="text-gray-600">All internships are verified to ensure they meet our quality standards.</p>
             </div>
           </div>
           <div className="group mt-8 md:mt-0">
@@ -116,8 +116,8 @@ const LandingPage = () => {
               <div className="w-14 h-14 bg-purple-600 rounded-xl flex items-center justify-center mb-6 transform group-hover:rotate-6 transition-transform">
                 <UsersIcon className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Seamless Collaboration</h3>
-              <p className="text-gray-600">Bring your team together with real-time editing, commenting, and sharing to foster creativity and teamwork.</p>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Seamless Application</h3>
+              <p className="text-gray-600">Apply to multiple internships with a single click and track your application status.</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ const LandingPage = () => {
         <div className="relative max-w-6xl mx-auto px-4 z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">Choose Your Portal</h2>
-            <p className="text-blue-100 max-w-xl mx-auto">Whether you're managing projects or collaborating as a team member, we've got you covered</p>
+            <p className="text-blue-100 max-w-xl mx-auto">Whether you're an admin managing internships or a user applying for them, we've got you covered.</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
@@ -142,7 +142,7 @@ const LandingPage = () => {
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-gray-600">Complete control over projects, teams, and resources with advanced analytics.</p>
+                <p className="text-gray-600">Manage internships, track applications, and analyze data with ease.</p>
                 <div className="space-y-3 pt-2">
                   <Button variant="default" className="w-full bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center gap-2" asChild>
                     <a href="/admin/login">Admin Login <ArrowRightIcon className="w-4 h-4" /></a>
@@ -152,7 +152,7 @@ const LandingPage = () => {
                   </Button>
                 </div>
                 <div className="pt-2 text-sm text-gray-500">
-                  <p>Features include: Analytics Dashboard, Resource Management, Team Performance, and more.</p>
+                  <p>Features include: Internship Management, Application Tracking, Data Analytics, and more.</p>
                 </div>
               </CardContent>
             </Card>
@@ -166,7 +166,7 @@ const LandingPage = () => {
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-gray-600">Collaborate effectively with your team and track your assigned tasks and progress.</p>
+                <p className="text-gray-600">Find and apply to internships, track your applications, and get hired.</p>
                 <div className="space-y-3 pt-2">
                   <Button variant="default" className="w-full bg-green-600 hover:bg-green-700 rounded-lg flex items-center justify-center gap-2" asChild>
                     <a href="/user/login">User Login <ArrowRightIcon className="w-4 h-4" /></a>
@@ -176,7 +176,7 @@ const LandingPage = () => {
                   </Button>
                 </div>
                 <div className="pt-2 text-sm text-gray-500">
-                  <p>Features include: Task Management, Team Chat, File Sharing, and Calendar Integration.</p>
+                  <p>Features include: Internship Search, Application Tracking, Notifications, and more.</p>
                 </div>
               </CardContent>
             </Card>
@@ -201,9 +201,9 @@ const LandingPage = () => {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-700 text-lg italic mb-4">"CommitConquer has transformed how our team collaborates. The intuitive interface and powerful features have increased our productivity by 40%."</p>
+              <p className="text-gray-700 text-lg italic mb-4">"This portal has made finding internships so much easier. The user-friendly interface and verified listings give me confidence in my applications."</p>
               <p className="font-semibold text-gray-900">Sarah Johnson</p>
-              <p className="text-sm text-gray-600">Project Manager, TechInnovate</p>
+              <p className="text-sm text-gray-600">Student, Tech University</p>
             </div>
           </div>
         </div>
@@ -212,8 +212,8 @@ const LandingPage = () => {
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Ready to transform your workflow?</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Join thousands of teams who have already improved their productivity with CommitConquer.</p>
+          <h2 className="text-3xl font-bold text-white mb-6">Ready to find your dream internship?</h2>
+          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Join thousands of students who have already found their internships through our portal.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 rounded-full shadow-lg">Start Free 14-Day Trial</Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-blue-700 rounded-full">Schedule a Demo</Button>
@@ -230,9 +230,9 @@ const LandingPage = () => {
                 <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center">
                   <CodeIcon className="w-4 h-4 text-white" />
                 </div>
-                <div className="text-xl font-bold text-white">CommitConquer</div>
+                <div className="text-xl font-bold text-white">Internship Portal</div>
               </div>
-              <p className="text-gray-400">Making project management better, together.</p>
+              <p className="text-gray-400">Connecting students with top internship opportunities.</p>
               <div className="flex space-x-4 mt-6">
                 <a href="#" className="text-gray-400 hover:text-white">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
@@ -274,7 +274,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500">
-            <p>© 2025 CommitConquer. All rights reserved.</p>
+            <p>© 2025 Internship Portal. All rights reserved.</p>
           </div>
         </div>
       </footer>

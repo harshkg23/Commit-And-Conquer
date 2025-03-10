@@ -12,7 +12,7 @@ export default function BlogsPage() {
     <div className="ml-64 min-h-screen bg-background">
       <div className="flex-1 space-y-4 p-8 pt-6">
         <BlogHeader />
-        {/* Increased margin-top to create more space between BlogHeader and BlogGrid */}
+      
         <div className="mt-16">
           <BlogGrid />
         </div>

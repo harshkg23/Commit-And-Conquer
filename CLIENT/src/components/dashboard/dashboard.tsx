@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { UserNav } from "@/components/dashboard/user-nav"
 import { MainNav } from "@/components/dashboard/main-nav"
-import { InternshipList } from "@/components/dashboard/internship-list"
+import  InternshipList  from "../../components/dashboard/internship-list"
 import { BasicSidebar } from "@/components/dashboard/dashboard-sidebar"
 import { Search } from "@/components/dashboard/search"
 import { Button } from "@/components/ui/button"
